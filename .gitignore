@@ -1,0 +1,81 @@
+# git ls-files --others --exclude-from=.git/info/exclude
+# Lines that start with '#' are comments.
+# For a project mostly in C, the following would be a good set of
+# exclude patterns (uncomment them if you want to use them):
+# *.[oa]
+# *~
+
+#Eclipse#
+###################
+*.pydevproject
+*.project
+*.metadata
+*/bin/*
+*/bin/
+*/tmp/**
+# I added these, don't want to store javadocs
+*/doc/
+*/doc/*
+doc
+# END: I added these, don't want to store javadocs
+*.tmp
+*.bak
+*.swp
+*~.nib
+*local.properties
+*.classpath
+*.settings/*
+*.settings/
+*.loadpath
+*org.eclipse.wst.common.component
+*org.eclipse.wst.common.project.facet.core.xml
+*.properties
+*.orig
+*.classpath
+*.xml
+
+# Package Files #
+##################
+*.war
+*.ear
+
+# Compiled source #
+###################
+*.com
+*.class
+*.o
+*.so
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.dmg
+*.iso
+
+# Logs and databases #
+######################
+*.log
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+.tmp
+*/*.tmp
+*/.tmp
+
+# MS Office generated files #
+#############################
+~$*
+
+# .js shtuff #
+##############
+node_modules/
+bower_components/
