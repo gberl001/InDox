@@ -1,1 +1,6 @@
-"This is my README!!" 
+### Quickstart
+```bash
+npm install
+bower install
+npm start
+```
